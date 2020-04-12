@@ -27,8 +27,8 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_DISABLE_RPROMPT=true     
                                                                      
 POWERLEVEL9K_TIME_FORMAT="%D{%m\/%d %H:%M}"     
-POWERLEVEL9K_TIME_FOREGROUND='white'                       
-POWERLEVEL9K_TIME_BACKGROUND='background'     
+POWERLEVEL9K_TIME_FOREGROUND='black'
+POWERLEVEL9K_TIME_BACKGROUND='white'
                                    
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
