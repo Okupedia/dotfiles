@@ -16,7 +16,7 @@ if [ -e /usr/local/share/zsh-completions ]; then
 fi
 
 # -----------------------------------------------------
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/bin:/usr/local/opt/llvm/bin"
 export PATH_TO_FX=/Library/Java/JavaVirtualMachines/javafx-sdk-13.0.2/lib
 
 #------------------------------------------------------

@@ -122,7 +122,7 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 # 
 # zstyle ':prezto:module:prompt' theme 'sorin'
 # zstyle ':prezto:module:prompt' theme 'powerline'
-# zstyle ':prezto:module:prompt' theme 'pure'
+#zstyle ':prezto:module:prompt' theme 'pure'
 zstyle ':prezto:module:prompt' theme 'powerlevel9k'
 
 
