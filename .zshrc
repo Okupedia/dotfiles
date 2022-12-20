@@ -19,23 +19,9 @@ fi
 export PATH="$PATH:$HOME/bin:/usr/local/opt/llvm/bin"
 export PATH_TO_FX=/Library/Java/JavaVirtualMachines/javafx-sdk-13.0.2/lib
 
-#------------------------------------------------------
-POWERLEVEL9K_MODE='nerdfont-complete'     
-                        
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time dir vcs)     
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()                                
-POWERLEVEL9K_DISABLE_RPROMPT=true     
-                                                                     
-POWERLEVEL9K_TIME_FORMAT="%D{%m\/%d %H:%M}"     
-POWERLEVEL9K_TIME_FOREGROUND='black'
-POWERLEVEL9K_TIME_BACKGROUND='white'
-                                   
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="\u25B8 "
-
-POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=''
-POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=''
-export PATH="/usr/local/opt/sqlite/bin:$PATH"
+#シンタックスハイライト
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#自動補完
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#プロンプト
+source /opt/homebrew/opt/powerlevel9k/powerlevel9k.zsh-theme
